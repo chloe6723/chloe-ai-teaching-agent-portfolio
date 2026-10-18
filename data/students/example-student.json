@@ -1,0 +1,12 @@
+{
+  "student_id": "example-student",
+  "display_name": "Anna",
+  "age": 16,
+  "level": "HSK 2",
+  "support_language": "English",
+  "interests": ["校园生活", "美食"],
+  "learned_topics": ["自我介绍", "时间"],
+  "strengths": ["听力"],
+  "weak_points": ["量词", "声调"],
+  "teacher_notes": "喜欢具体情境和快速选择题。"
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>第一次去海底捞｜HSK 2–3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span>海底捞</span><b>餐厅中文</b><small>Hǎidǐlāo · Restaurant Chinese</small></a>
+    <nav aria-label="课堂导航">
+      <button class="nav-button active" data-target="journey">① 服务流程<small>service journey</small></button>
+      <button class="nav-button" data-target="phrases">② 服务用语<small>useful phrases</small></button>
+      <button class="nav-button" data-target="menu">③ 特色菜<small>signature dishes</small></button>
+      <button class="nav-button" data-target="practice">④ 点餐挑战<small>ordering challenge</small></button>
+    </nav>
+    <div class="size-tools"><button id="smaller" aria-label="缩小字体">A−</button><button id="resetSize">100%</button><button id="larger" aria-label="放大字体">A＋</button></div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">HSK 2–3 · 实用口语课</span>
+        <h1>第一次去<br><em>海底捞</em></h1>
+        <p class="py">Dì-yī cì qù Hǎidǐlāo</p>
+        <p class="en">Your first visit to Haidilao</p>
+        <div class="goal"><b>今天的任务</b><span>自己完成从进店到结账的中文对话。</span><small>Complete the whole restaurant visit in Chinese.</small></div>
+      </div>
+      <div class="hotpot-art" aria-label="火锅插图">
+        <div class="steam"><i></i><i></i><i></i></div>
+        <div class="pot"><div class="soup red"></div><div class="soup tomato"></div><span>辣</span><span>番茄</span></div>
+        <div class="plate p1">🥬</div><div class="plate p2">🥩</div><div class="plate p3">🍤</div>
+      </div>
+    </section>
+
+    <section id="journey" class="panel active">
+      <header class="section-title"><span>01</span><div><h2>从进店到结账</h2><p>cóng jìndiàn dào jiézhàng · from arrival to payment</p></div></header>
+      <div id="steps" class="steps"></div>
+      <article class="roleplay-card">
+        <div><span class="tag">先学这一段</span><h3>进店对话</h3><p class="py">jìndiàn duìhuà</p><p class="en">Arriving at the restaurant</p></div>
+        <div class="chat">
+          <button class="bubble staff speak" data-speech="欢迎光临，请问几位？"><small>服务员 · Server</small><b>欢迎光临，请问几位？</b><span>Huānyíng guānglín, qǐngwèn jǐ wèi?</span><em>Welcome! How many people?</em></button>
+          <button class="bubble guest speak" data-speech="两位。我们没有预约。"><small>你 · You</small><b>两位。我们没有预约。</b><span>Liǎng wèi. Wǒmen méiyǒu yùyuē.</span><em>Two. We don’t have a reservation.</em></button>
+          <button class="bubble staff speak" data-speech="好的，请先取号。"><small>服务员 · Server</small><b>好的，请先取号。</b><span>Hǎo de, qǐng xiān qǔhào.</span><em>Okay. Please take a number first.</em></button>
+        </div>
+      </article>
+    </section>
+
+    <section id="phrases" class="panel">
+      <header class="section-title"><span>02</span><div><h2>你真的会说的句子</h2><p>nǐ zhēnde huì shuō de jùzi · phrases you will really use</p></div></header>
+      <p class="hint">点击卡片听中文。Tap a card to hear the Chinese.</p>
+      <div id="phraseGrid" class="phrase-grid"></div>
+      <aside class="service-note"><b>海底捞的特色服务</b><span>围裙、头绳、眼镜布等用品可以礼貌询问；美甲、儿童服务等因门店和时间而不同。</span><small>You can politely ask for an apron, hair tie, or lens cloth. Manicure and children’s services vary by location and time.</small></aside>
+    </section>
+
+    <section id="menu" class="panel">
+      <header class="section-title"><span>03</span><div><h2>先认识八道特色菜</h2><p>xiān rènshi bā dào tèsè cài · meet eight signature dishes</p></div></header>
+      <div class="menu-toolbar"><span>点击“加入菜单”，准备你的火锅。</span><small>Tap “Add” to build your order.</small><div class="cart">已选 <b id="cartCount">0</b> 道 · <span id="cartTotal">¥0</span></div></div>
+      <div id="dishGrid" class="dish-grid"></div>
+      <div class="source-line">菜品依据海底捞官网全国特色菜页面整理；价格为课堂模拟价，不代表门店实际价格。Regional menus and actual prices vary.</div>
+    </section>
+
+    <section id="practice" class="panel">
+      <header class="section-title"><span>04</span><div><h2>完成一次点餐</h2><p>wánchéng yí cì diǎncān · complete an order</p></div></header>
+      <div class="practice-layout">
+        <aside class="mission">
+          <span class="tag">你的任务 · Your mission</span>
+          <h3>两个人，不太能吃辣</h3><p class="py">Liǎng ge rén, bú tài néng chī là.</p><p class="en">Two people who cannot eat very spicy food.</p>
+          <ul><li>选一个不辣的锅底</li><li>点两道特色菜</li><li>需要时请服务员加汤</li><li>最后礼貌结账</li></ul>
+        </aside>
+        <article class="simulator">
+          <div class="server-line"><span>👩🏻‍🍳</span><div><b id="serverZh">欢迎光临，请问几位？</b><p id="serverPy">Huānyíng guānglín, qǐngwèn jǐ wèi?</p><small id="serverEn">Welcome! How many people?</small></div></div>
+          <div id="answerChoices" class="answer-choices"></div>
+          <div class="sim-footer"><span>进度 <b id="progressText">1 / 5</b></span><div class="progress"><i id="progressBar"></i></div><span>得分 <b id="scoreText">0</b></span></div>
+        </article>
+      </div>
+      <article class="final-script">
+        <div><span class="tag">自由练习</span><h3>和老师交换角色</h3><p class="py">Hé lǎoshī jiāohuàn juésè</p><p class="en">Switch roles with your teacher</p></div>
+        <div class="script-list"><p><b>服务员：</b>您想要什么锅底？</p><p><b>顾客：</b>我要 ______ 锅。我们不太能吃辣。</p><p><b>服务员：</b>还需要什么菜？</p><p><b>顾客：</b>请来一份 ______ 和一份 ______。</p><p><b>顾客：</b>麻烦帮我们加一点汤。</p><p><b>顾客：</b>谢谢，请帮我们结账。</p></div>
+      </article>
+    </section>
+  </main>
+
+  <footer><p>课堂资料 · HSK 2–3</p><p>菜品与品牌信息来源：<a href="https://www.haidilao.com/cate/" target="_blank" rel="noreferrer">海底捞官网</a> · 不同门店菜单和服务可能不同</p></footer>
+  <script src="app.js"></script>
+</body>
+</html>

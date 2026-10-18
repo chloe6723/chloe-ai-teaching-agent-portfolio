@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">AI Chinese Lesson Agent architecture</title>
+  <desc id="desc">A five-stage workflow from teacher request to validated interactive lesson.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f4ff"/><stop offset="1" stop-color="#eef9f8"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#251d45" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7256ee"/></marker>
+    <style>.t{font-family:Inter,Avenir Next,Arial,sans-serif;fill:#211c37}.h{font-size:26px;font-weight:800}.s{font-size:16px;fill:#67617b}.n{font-size:15px;font-weight:800;fill:#fff}.box{fill:#fff;stroke:#ded8f7;stroke-width:2;filter:url(#shadow)}.line{stroke:#7256ee;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="620" rx="32" fill="url(#bg)"/>
+  <text x="64" y="72" class="t h" font-size="34">AI Chinese Lesson Design Agent</text>
+  <text x="64" y="104" class="t s">From teacher intent to a classroom-ready, testable web lesson</text>
+  <path class="line" d="M240 235 H315"/><path class="line" d="M515 235 H590"/><path class="line" d="M790 235 H865"/>
+  <rect class="box" x="45" y="155" width="195" height="160" rx="22"/>
+  <circle cx="84" cy="195" r="20" fill="#7256ee"/><text x="79" y="201" class="n">1</text>
+  <text x="76" y="242" class="t h">Lesson request</text><text x="76" y="272" class="t s">Age · HSK level</text><text x="76" y="296" class="t s">Topic · duration</text>
+  <rect class="box" x="315" y="155" width="200" height="160" rx="22"/>
+  <circle cx="354" cy="195" r="20" fill="#e5489d"/><text x="349" y="201" class="n">2</text>
+  <text x="346" y="242" class="t h">Context tools</text><text x="346" y="272" class="t s">Student profile</text><text x="346" y="296" class="t s">Reference search</text>
+  <rect class="box" x="590" y="155" width="200" height="160" rx="22"/>
+  <circle cx="629" cy="195" r="20" fill="#35b8bd"/><text x="624" y="201" class="n">3</text>
+  <text x="621" y="242" class="t h">Agent planner</text><text x="621" y="272" class="t s">Tool calling</text><text x="621" y="296" class="t s">Structured output</text>
+  <rect class="box" x="865" y="155" width="290" height="160" rx="22"/>
+  <circle cx="904" cy="195" r="20" fill="#f0b92d"/><text x="899" y="201" class="n">4</text>
+  <text x="896" y="242" class="t h">Quality gate</text><text x="896" y="272" class="t s">Pydantic schema · teaching checks</text><text x="896" y="296" class="t s">Nine cards · game · reading · discussion</text>
+  <path class="line" d="M1010 315 V385"/>
+  <rect class="box" x="710" y="385" width="445" height="165" rx="22" stroke="#35b8bd"/>
+  <circle cx="754" cy="427" r="20" fill="#35b8bd"/><text x="749" y="433" class="n">5</text>
+  <text x="746" y="475" class="t h">Interactive lesson package</text>
+  <text x="746" y="505" class="t s">Responsive HTML · classroom game · clickable glossary</text>
+  <text x="746" y="530" class="t s">Teacher guide · validation report · local preview</text>
+  <rect x="45" y="385" width="570" height="165" rx="22" fill="#211c37"/>
+  <text x="78" y="430" fill="#72e1d7" class="h" font-family="Inter,Avenir Next,Arial">Design principle</text>
+  <text x="78" y="470" fill="#fff" font-size="20" font-family="Inter,Avenir Next,Arial">The model makes teaching decisions.</text>
+  <text x="78" y="505" fill="#fff" font-size="20" font-family="Inter,Avenir Next,Arial">Deterministic code renders and verifies the deliverable.</text>
+</svg>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>中文发音课 | Mandarin Pronunciation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="lesson-picker">
+      <label for="lessonSelect">课时 <small>kèshí · lesson</small></label>
+      <select id="lessonSelect" aria-label="选择课时 Choose a lesson">
+        <option value="0">01 · 单韵母与声调 / Vowels & tones</option>
+        <option value="1">02 · 声母 / Initials</option>
+        <option value="2">03 · 韵母 / Finals</option>
+        <option value="3">04 · 整体认读 / Whole syllables</option>
+      </select>
+    </div>
+    <div class="course-name">中文发音课 <span>Zhōngwén fāyīn kè</span><b>Mandarin Pronunciation</b></div>
+    <div class="text-sizer" aria-label="调整字号 Adjust text size">
+      <span class="size-label">字号 <small>zìhào · text size</small></span>
+      <button id="fontDown" type="button" aria-label="减小字号 Decrease text size">A−</button>
+      <input id="fontSize" type="range" min="80" max="150" step="5" value="100" aria-label="字号大小 Text size">
+      <button id="fontUp" type="button" aria-label="放大字号 Increase text size">A+</button>
+      <button id="fontReset" type="button" class="size-value" title="恢复默认 Reset">100%</button>
+    </div>
+    <button id="sourceBtn" class="source-button">素材来源 <span>sùcái láiyuán</span><small>media sources</small></button>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-copy"><p id="lessonNo" class="kicker"></p><h1 id="lessonTitle"></h1><p id="lessonPinyin" class="pinyin"></p><p id="lessonEnglish" class="english"></p></div>
+      <div class="hero-art"><img id="lessonIllustration" alt=""></div>
+    </section>
+
+    <nav class="section-tabs" aria-label="课堂板块 Lesson sections">
+      <button class="section-tab active" data-section="cards"><b>01</b><span>发音卡<small>fāyīn kǎ · Sound cards</small></span></button>
+      <button class="section-tab" data-section="listen"><b>02</b><span>听音挑战<small>tīngyīn tiǎozhàn · Listen</small></span></button>
+      <button class="section-tab" data-section="game"><b>03</b><span>场景游戏<small>chǎngjǐng yóuxì · Game</small></span></button>
+      <button class="section-tab" data-section="speak"><b>04</b><span>开口练习<small>kāikǒu liànxí · Speak live</small></span></button>
+    </nav>
+
+    <section id="cards" class="panel active"></section>
+    <section id="listen" class="panel"></section>
+    <section id="game" class="panel"></section>
+    <section id="speak" class="panel"></section>
+  </main>
+
+  <dialog id="sourceDialog">
+    <button id="sourceClose" class="dialog-close" aria-label="关闭 Close">×</button>
+    <h2>素材来源</h2><p class="pinyin">sùcái láiyuán</p><p class="english">Media sources</p>
+    <p>页面已全部改用 CLI 互动拼音表的 MP3 示范音。</p><p class="pinyin">Yèmiàn yǐ quánbù gǎiyòng CLI hùdòng pīnyīn biǎo de MP3 shìfànyīn.</p><p class="english">All lesson audio now uses the MP3 demonstrations from CLI’s interactive Pinyin Chart.</p>
+    <a href="https://studycli.org/pinyin-chart/" target="_blank" rel="noopener">Chinese Language Institute · Interactive Pinyin Chart ↗</a>
+    <p>课时主视觉使用 shigureni free illust 官方素材，仅在网页中作为教学插图。</p><p class="pinyin">Kèshí zhǔ shìjué shǐyòng shigureni free illust guānfāng sùcái.</p><p class="english">Lesson visuals use official artwork from shigureni free illust.</p>
+    <a href="https://shigureni.com/" target="_blank" rel="noopener">shigureni free illust 官网 ↗</a>
+    <p class="fineprint">本页使用的4张官方素材：<a href="https://shigureni.com/illust/59" target="_blank" rel="noopener">耳机</a>、<a href="https://shigureni.com/illust/28" target="_blank" rel="noopener">耳塞</a>、<a href="https://shigureni.com/illust/122" target="_blank" rel="noopener">学习</a>、<a href="https://shigureni.com/illust/19" target="_blank" rel="noopener">线上对话</a>。</p>
+    <p class="fineprint">English sound matches are starting clues only. Listen to the model audio and follow the mouth or airflow instruction.</p>
+  </dialog>
+  <footer class="credit">Illustrations: <a href="https://shigureni.com/" target="_blank" rel="noopener">shigureni free illust</a></footer>
+  <audio id="audioPlayer" preload="none"></audio>
+  <script src="course-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

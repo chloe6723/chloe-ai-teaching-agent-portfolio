@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chloe-ai-teaching-agent-portfolio"
+version = "1.0.0"
+description = "Public portfolio edition of an AI Chinese lesson design agent"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai-agents>=0.4.0",
+  "pydantic>=2.10",
+]
+
+[project.scripts]
+chloe-agent = "chloe_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["chloe_agent*"]

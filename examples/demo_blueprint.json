@@ -1,0 +1,150 @@
+{
+  "title": "今天早餐吃什么？",
+  "subtitle": "在校园早餐店里认识食物、表达选择，并完成一次自然点餐。",
+  "level": "HSK 2",
+  "duration_minutes": 45,
+  "audience_summary": "适合已经会基本问候、数字和时间表达的初级学习者。",
+  "learning_objectives": [
+    "认识九个常见早餐词语",
+    "使用“我要……”和“你想吃什么？”完成点餐",
+    "听懂简单的早餐选择并作出回应"
+  ],
+  "cards": [
+    {
+      "term": "包子",
+      "pinyin": "bāozi",
+      "translation": "steamed bun",
+      "example": "我要两个包子。",
+      "example_pinyin": "Wǒ yào liǎng ge bāozi.",
+      "example_translation": "I would like two steamed buns.",
+      "image_url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "一笼热包子"
+    },
+    {
+      "term": "豆浆",
+      "pinyin": "dòujiāng",
+      "translation": "soy milk",
+      "example": "豆浆是热的。",
+      "example_pinyin": "Dòujiāng shì rè de.",
+      "example_translation": "The soy milk is hot.",
+      "image_url": "https://images.unsplash.com/photo-1600189020840-e9918c25269d?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "杯子里的豆浆"
+    },
+    {
+      "term": "鸡蛋",
+      "pinyin": "jīdàn",
+      "translation": "egg",
+      "example": "我每天吃一个鸡蛋。",
+      "example_pinyin": "Wǒ měitiān chī yí ge jīdàn.",
+      "example_translation": "I eat one egg every day.",
+      "image_url": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "几个鸡蛋"
+    },
+    {
+      "term": "面包",
+      "pinyin": "miànbāo",
+      "translation": "bread",
+      "example": "她喜欢吃面包。",
+      "example_pinyin": "Tā xǐhuan chī miànbāo.",
+      "example_translation": "She likes eating bread.",
+      "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "新鲜烤好的面包"
+    },
+    {
+      "term": "牛奶",
+      "pinyin": "niúnǎi",
+      "translation": "milk",
+      "example": "请给我一杯牛奶。",
+      "example_pinyin": "Qǐng gěi wǒ yì bēi niúnǎi.",
+      "example_translation": "Please give me a glass of milk.",
+      "image_url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "一杯牛奶"
+    },
+    {
+      "term": "米粥",
+      "pinyin": "mǐzhōu",
+      "translation": "rice porridge",
+      "example": "早上喝米粥很舒服。",
+      "example_pinyin": "Zǎoshang hē mǐzhōu hěn shūfu.",
+      "example_translation": "Rice porridge is comforting in the morning.",
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "一碗热粥"
+    },
+    {
+      "term": "水果",
+      "pinyin": "shuǐguǒ",
+      "translation": "fruit",
+      "example": "早餐要吃一点水果。",
+      "example_pinyin": "Zǎocān yào chī yìdiǎn shuǐguǒ.",
+      "example_translation": "You should eat some fruit for breakfast.",
+      "image_url": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "多种新鲜水果"
+    },
+    {
+      "term": "甜",
+      "pinyin": "tián",
+      "translation": "sweet",
+      "example": "这个面包有一点甜。",
+      "example_pinyin": "Zhège miànbāo yǒu yìdiǎn tián.",
+      "example_translation": "This bread is a little sweet.",
+      "image_url": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "甜甜圈等甜食"
+    },
+    {
+      "term": "热",
+      "pinyin": "rè",
+      "translation": "hot / warm",
+      "example": "我要一杯热豆浆。",
+      "example_pinyin": "Wǒ yào yì bēi rè dòujiāng.",
+      "example_translation": "I would like a cup of hot soy milk.",
+      "image_url": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=80",
+      "image_alt": "冒着热气的饮料"
+    }
+  ],
+  "game": {
+    "title": "早餐店快问快答",
+    "title_pinyin": "Zǎocāndiàn kuài wèn kuài dá",
+    "title_translation": "Breakfast shop quick quiz",
+    "goal": "听懂早餐店里的具体需求，并选择最合适的词语或回答。",
+    "goal_translation": "Understand a specific breakfast order and choose the best word or response.",
+    "instructions": ["读问题，也可以请老师读给你听。", "从三个选项中选择最合适的答案。", "看反馈后，用完整句子跟读一次。"],
+    "instructions_translation": ["Read the question or ask your teacher to read it aloud.", "Choose the best answer from three options.", "After the feedback, repeat the full sentence once."],
+    "teacher_tip": "第二轮遮住文字，由老师读题；学生只听声音作答。",
+    "questions": [
+      {"prompt":"什么是喝的？","prompt_pinyin":"Shénme shì hē de?","prompt_translation":"Which one is something you drink?","choices":["包子","豆浆","鸡蛋"],"correct_index":1,"feedback":"豆浆是喝的。","feedback_translation":"Soy milk is something you drink."},
+      {"prompt":"我要两个____。","prompt_pinyin":"Wǒ yào liǎng ge ____. ","prompt_translation":"I would like two ____.","choices":["包子","牛奶","热"],"correct_index":0,"feedback":"量词“个”可以搭配包子。","feedback_translation":"The measure word ge can be used with steamed buns."},
+      {"prompt":"“hot soy milk”怎么说？","prompt_pinyin":"“Hot soy milk” zěnme shuō?","prompt_translation":"How do you say “hot soy milk”?","choices":["甜牛奶","热豆浆","水果"],"correct_index":1,"feedback":"热豆浆就是 hot soy milk。","feedback_translation":"Rè dòujiāng means hot soy milk."},
+      {"prompt":"哪一个通常用“一个”？","prompt_pinyin":"Nǎ yí ge tōngcháng yòng “yí ge”?","prompt_translation":"Which one commonly uses the measure word ge?","choices":["鸡蛋","豆浆","牛奶"],"correct_index":0,"feedback":"我们说“一个鸡蛋”。","feedback_translation":"We say yí ge jīdàn."},
+      {"prompt":"你想吃什么？","prompt_pinyin":"Nǐ xiǎng chī shénme?","prompt_translation":"What would you like to eat?","choices":["我要面包。","我是学生。","现在八点。"],"correct_index":0,"feedback":"“我要面包”直接回答了食物选择。","feedback_translation":"Wǒ yào miànbāo directly answers the food choice."},
+      {"prompt":"哪一句最适合在早餐店说？","prompt_pinyin":"Nǎ yí jù zuì shìhé zài zǎocāndiàn shuō?","prompt_translation":"Which sentence fits best in a breakfast shop?","choices":["今天天气很好。","请给我一杯牛奶。","他在学校。"],"correct_index":1,"feedback":"点餐时可以说“请给我……”。","feedback_translation":"Use qǐng gěi wǒ… when ordering."}
+    ]
+  },
+  "reading": {
+    "title": "上课前的早餐",
+    "title_pinyin": "Shàngkè qián de zǎocān",
+    "title_translation": "Breakfast before class",
+    "paragraphs": ["今天早上，安娜和小明去学校旁边的早餐店。小明问：“你想吃什么？”", "安娜说：“我要一个鸡蛋、一个包子，还要一杯热豆浆。豆浆不要太甜。”小明买了面包、牛奶和水果。", "他们吃完早餐去上课。安娜说：“米粥看起来也很好吃，我明天想试一试。”"],
+    "paragraphs_pinyin": ["Jīntiān zǎoshang, Ānnà hé Xiǎomíng qù xuéxiào pángbiān de zǎocāndiàn. Xiǎomíng wèn: “Nǐ xiǎng chī shénme?”", "Ānnà shuō: “Wǒ yào yí ge jīdàn, yí ge bāozi, hái yào yì bēi rè dòujiāng. Dòujiāng bú yào tài tián.” Xiǎomíng mǎi le miànbāo, niúnǎi hé shuǐguǒ.", "Tāmen chī wán zǎocān qù shàngkè. Ānnà shuō: “Mǐzhōu kànqǐlái yě hěn hǎochī, wǒ míngtiān xiǎng shì yí shì.”"],
+    "paragraphs_translation": ["This morning, Anna and Xiaoming go to the breakfast shop next to the school. Xiaoming asks, “What would you like to eat?”", "Anna says, “I’d like an egg, a steamed bun, and a cup of hot soy milk. Please don’t make the soy milk too sweet.” Xiaoming buys bread, milk, and fruit.", "After breakfast, they go to class. Anna says, “The rice porridge also looks delicious. I want to try it tomorrow.”"],
+    "glossary": [
+      {"word":"早餐店","pinyin":"zǎocāndiàn","translation":"breakfast shop","explanation":"早上卖早餐的小店。","image_url":"https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80","image_alt":"一家早餐餐厅"},
+      {"word":"包子","pinyin":"bāozi","translation":"steamed bun","explanation":"用面做皮、里面有馅的蒸食。","image_url":"https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80","image_alt":"一笼包子"},
+      {"word":"豆浆","pinyin":"dòujiāng","translation":"soy milk","explanation":"用黄豆做的饮料。","image_url":"https://images.unsplash.com/photo-1600189020840-e9918c25269d?auto=format&fit=crop&w=900&q=80","image_alt":"一杯豆浆"},
+      {"word":"鸡蛋","pinyin":"jīdàn","translation":"egg","explanation":"鸡生的蛋，是常见的早餐食物。","image_url":"https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=900&q=80","image_alt":"鸡蛋"},
+      {"word":"面包","pinyin":"miànbāo","translation":"bread","explanation":"用面粉烤成的食物。","image_url":"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80","image_alt":"面包"},
+      {"word":"牛奶","pinyin":"niúnǎi","translation":"milk","explanation":"奶牛产的奶。","image_url":"https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=900&q=80","image_alt":"牛奶"},
+      {"word":"米粥","pinyin":"mǐzhōu","translation":"rice porridge","explanation":"米加很多水煮成的食物。","image_url":"https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80","image_alt":"一碗粥"},
+      {"word":"水果","pinyin":"shuǐguǒ","translation":"fruit","explanation":"苹果、香蕉、橙子等都叫水果。","image_url":"https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=900&q=80","image_alt":"水果"},
+      {"word":"甜","pinyin":"tián","translation":"sweet","explanation":"像糖一样的味道。","image_url":"https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80","image_alt":"甜食"},
+      {"word":"热","pinyin":"rè","translation":"hot / warm","explanation":"温度比较高。","image_url":"https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=80","image_alt":"热饮"},
+      {"word":"旁边","pinyin":"pángbiān","translation":"next to","explanation":"在一个地方或东西的附近一侧。","image_url":"https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80","image_alt":"相邻的位置"},
+      {"word":"试一试","pinyin":"shì yi shì","translation":"give it a try","explanation":"尝试做一次或尝一点。","image_url":"https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80","image_alt":"尝试食物"}
+    ]
+  },
+  "discussion_questions": [
+    {"question":"你平常早上吃什么？为什么？","pinyin":"Nǐ píngcháng zǎoshang chī shénme? Wèishénme?","translation":"What do you usually eat in the morning, and why?","sentence_frame":"我平常吃……，因为……","sentence_frame_pinyin":"Wǒ píngcháng chī…, yīnwèi…","sentence_frame_translation":"I usually eat… because…","keywords":["方便","健康","好吃","没有时间"]},
+    {"question":"如果你开一家早餐店，你会卖什么？","pinyin":"Rúguǒ nǐ kāi yì jiā zǎocāndiàn, nǐ huì mài shénme?","translation":"If you opened a breakfast shop, what would you sell?","sentence_frame":"我的早餐店会卖……，还会卖……","sentence_frame_pinyin":"Wǒ de zǎocāndiàn huì mài…, hái huì mài…","sentence_frame_translation":"My breakfast shop would sell… and also…","keywords":["中式早餐","面包","饮料","特色菜"]}
+  ],
+  "teacher_flow": ["5分钟：用早餐图片暖场，学生说出认识的食物。", "12分钟：学习九张知识卡并做快速跟读。", "10分钟：完成早餐店快问快答，第二轮改为听力。", "10分钟：阅读课文，点击生词查看解释。", "6分钟：两道开放问题，使用句型支架表达。", "2分钟：学生用一句话总结今天想吃的早餐。"],
+  "source_notes": ["图片示例使用 Unsplash 公开图片链接；正式课程生成后仍需教师检查图片内容和授权要求。"]
+}

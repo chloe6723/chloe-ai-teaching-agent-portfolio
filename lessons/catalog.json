@@ -1,0 +1,25 @@
+{
+  "lessons": [
+    {
+      "slug": "pinyin-four-courses",
+      "level": "Pre-HSK",
+      "title": "Four-Session Pinyin Lab",
+      "topic": "Pinyin, initials, finals and tones",
+      "path": "lessons/00-pre-hsk/pinyin-four-courses/index.html"
+    },
+    {
+      "slug": "haidilao-restaurant",
+      "level": "HSK 2-3",
+      "title": "First Visit to Haidilao",
+      "topic": "Restaurant service flow and ordering",
+      "path": "lessons/04-hsk2-3/haidilao-restaurant/index.html"
+    },
+    {
+      "slug": "social-media-creator",
+      "level": "HSK 2-3",
+      "title": "Chinese for Social Media Creators",
+      "topic": "Short-video scripting and creator language",
+      "path": "lessons/04-hsk2-3/social-media-creator/index.html"
+    }
+  ]
+}
