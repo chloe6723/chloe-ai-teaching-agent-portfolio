@@ -18,28 +18,18 @@ class AgentRuntime:
 
 
 def _public_instructions(support_language: str) -> str:
-    """Return the portfolio-safe policy.
+    """Return a deployment placeholder without exposing the production rubric."""
 
-    The production teaching rubric and private prompt library are intentionally
-    excluded from this public repository. This short policy demonstrates the
-    structured-output and tool-calling architecture without publishing the
-    instructor's proprietary workflow.
-    """
-
-    return f"""
-Design an age-appropriate Chinese lesson from the supplied request.
-Use the student-profile and reference-lesson tools before planning.
-Return a LessonBlueprint with nine learning cards, one practice game,
-one level-appropriate reading and two discussion questions.
-Add tone-marked pinyin and {support_language} support where appropriate.
-Use verifiable image sources and produce concrete, answerable activities.
-""".strip()
+    return (
+        "本仓库为求职展示版。生产环境的教学策略、质量规则与提示词库"
+        f"由私有配置注入；本次辅助语言为 {support_language}。"
+    )
 
 
 async def generate_blueprint(
     request: LessonRequest, settings: Settings | None = None
 ) -> LessonBlueprint:
-    """Run the OpenAI Agents SDK and return a validated lesson blueprint."""
+    """运行课程规划智能体并返回通过数据模型校验的课程蓝图。"""
 
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError(
@@ -49,7 +39,7 @@ async def generate_blueprint(
     try:
         from agents import Agent, Runner, WebSearchTool, function_tool
     except ImportError as exc:
-        raise RuntimeError("Install the project with `pip install -e .`") from exc
+        raise RuntimeError("智能体运行依赖尚未安装。") from exc
 
     resolved = settings or Settings.load()
     repository = LessonRepository(resolved)

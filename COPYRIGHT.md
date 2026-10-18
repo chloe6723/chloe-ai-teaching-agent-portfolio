@@ -1,8 +1,5 @@
-# Copyright
+# 版权说明
 
-Copyright © 2026 Chloe Chen. All rights reserved.
+Copyright © 2026 Chloe Chen. 保留所有权利。
 
-This repository is published for portfolio review. No license is granted to
-copy, redistribute, sell, or incorporate the source code, lesson designs,
-visual design, or teaching materials into another product without written
-permission from the copyright owner.
+本仓库仅用于求职作品展示。未经作者书面许可，不得复制、转载、出售，或将其中的源代码、课程设计、视觉设计与教学材料用于其他产品。
